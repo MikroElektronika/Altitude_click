@@ -1,0 +1,8 @@
+module Click_Altitude_config
+
+include Click_Altitude_types
+
+const
+    _ALTITUDE_I2C_CFG as uint32_t[1] = (_I2C_100KHZ)
+    
+end.
